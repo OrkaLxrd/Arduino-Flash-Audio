@@ -7,10 +7,59 @@
 
 ---
 
-## Language / Язык
+## Contents / Оглавление
 
-- [English](#english)
-- [Русский](#русский)
+### [English](#english)
+
+1. [What is SimpleFlashAudio?](#what-is-simpleflashaudio)
+2. [Features](#features)
+3. [Example API](#example-api)
+4. [Planned API](#planned-api)
+   - [Playback](#playback)
+   - [Volume](#volume)
+   - [Flash information](#flash-information)
+   - [Audio list](#audio-list)
+   - [Uploading audio](#uploading-audio)
+   - [Erasing audio](#erasing-audio)
+5. [Flash service area](#flash-service-area)
+6. [Flash memory format](#flash-memory-format)
+7. [Audio format](#audio-format)
+8. [Hardware](#hardware)
+   - [Required parts](#required-parts)
+   - [Tested hardware](#tested-hardware)
+   - [Basic Arduino Nano wiring](#basic-arduino-nano-wiring)
+9. [Microcontroller support table](#microcontroller-support-table)
+10. [Why SPI Flash instead of SD card?](#why-spi-flash-instead-of-sd-card)
+11. [Project structure](#project-structure)
+12. [Roadmap](#roadmap)
+13. [Status](#status)
+
+### [Русский](#русский)
+
+1. [Что такое SimpleFlashAudio?](#что-такое-simpleflashaudio)
+2. [Возможности](#возможности)
+3. [Пример API](#пример-api)
+4. [Планируемый API](#планируемый-api)
+   - [Воспроизведение](#воспроизведение)
+   - [Громкость](#громкость)
+   - [Информация о Flash](#информация-о-flash)
+   - [Список аудио](#список-аудио)
+   - [Загрузка аудио](#загрузка-аудио)
+   - [Стирание аудио](#стирание-аудио)
+5. [Служебная область Flash](#служебная-область-flash)
+6. [Формат Flash](#формат-flash)
+7. [Формат аудио](#формат-аудио)
+8. [Железо](#железо)
+   - [Нужно](#нужно)
+   - [Проверенное железо](#проверенное-железо)
+   - [Базовое подключение Arduino Nano](#базовое-подключение-arduino-nano)
+9. [Таблица поддержки микроконтроллеров](#таблица-поддержки-микроконтроллеров)
+10. [Почему SPI Flash, а не SD-карта?](#почему-spi-flash-а-не-sd-карта)
+11. [Структура проекта](#структура-проекта)
+12. [Roadmap / планы](#roadmap--планы)
+13. [Статус](#статус)
+14. [License](#license)
+15. [Author](#author)
 
 ---
 
@@ -302,6 +351,9 @@ SCK / CLK
 ```
 
 The Flash `DO / MISO` pin can usually go directly to an ATmega328P input.
+<p align="center">
+  <img src="https://cdn-learn.adafruit.com/assets/assets/000/011/519/medium800/trinket_programming-schematic.png?1381553443" alt="Схема подключения SimpleFlashAudio" width="700">
+</p>
 
 ---
 
@@ -724,6 +776,9 @@ SCK / CLK
 ```
 
 Пин `DO / MISO` от Flash обычно можно подключать напрямую ко входу ATmega328P.
+<p align="center">
+  <img src="https://cdn-learn.adafruit.com/assets/assets/000/011/519/medium800/trinket_programming-schematic.png?1381553443" alt="Схема подключения SimpleFlashAudio" width="700">
+</p>
 
 ---
 
