@@ -352,7 +352,7 @@ SCK / CLK
 
 The Flash `DO / MISO` pin can usually go directly to an ATmega328P input.
 <p align="center">
-  <img src="https://cdn-learn.adafruit.com/assets/assets/000/011/519/medium800/trinket_programming-schematic.png?1381553443" alt="Схема подключения SimpleFlashAudio" width="700">
+  <img src="https://orkalxrd.dev/assets/circuit_diagram.png" alt="Схема подключения SimpleFlashAudio" width="700">
 </p>
 
 ---
@@ -777,7 +777,7 @@ SCK / CLK
 
 Пин `DO / MISO` от Flash обычно можно подключать напрямую ко входу ATmega328P.
 <p align="center">
-  <img src="https://cdn-learn.adafruit.com/assets/assets/000/011/519/medium800/trinket_programming-schematic.png?1381553443" alt="Схема подключения SimpleFlashAudio" width="700">
+  <img src="https://orkalxrd.dev/assets/circuit_diagram.png" alt="Схема подключения SimpleFlashAudio" width="700">
 </p>
 
 ---
