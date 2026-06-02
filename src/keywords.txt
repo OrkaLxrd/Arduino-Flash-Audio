@@ -1,0 +1,17 @@
+SimpleFlashAudio	KEYWORD1
+play	KEYWORD2
+stop	KEYWORD2
+update	KEYWORD2
+setVolume	KEYWORD2
+getVolume	KEYWORD2
+getFlashInfo	KEYWORD2
+getManufacturerId	KEYWORD2
+getFlashSize	KEYWORD2
+getUsedSize	KEYWORD2
+getFreeSize	KEYWORD2
+getUsedPercent	KEYWORD2
+getAudioCount	KEYWORD2
+getAudioName	KEYWORD2
+eraseAudio	KEYWORD2
+eraseAll	KEYWORD2
+handleSerial	KEYWORD2
